@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 30px;
+    /* border: 2px solid red; */
+    margin: 20px 20px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    text-align: center;
+    background: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.f{
+    display: flex;
+    column-gap: 20px;
+}
+.inp{
+    margin: 20px 0 20px 20px;
+}
+.inp input{
+    height: 30px;
+    margin-top: 10px;
+}
+.container2{
+    display: flex;
+}
+.box1{
+    width: 400px;
+    min-height: 600px;
+}
+.box2{
+    width: 400px;
+    min-height: 600px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+.box3{
+    width: 400px;
+    min-height: 600px;
+}
+.box1 h2{
+    margin-left: 10px;
+    text-align: center;
+}
+.box2 h2{
+    margin-left: 10px;
+    text-align: center;
+}
+.box3 h2{
+    margin-left: 10px;
+    text-align: center;
+}
+.osnova{
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 5px;
+    box-shadow: 0 0 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.color{
+    width: 250px;
+    height: 30px;
+    background: rgba(128, 128, 128, 0.666);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.color h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.505);
+}
+.color h2{
+    font-size: 20px;
+}
